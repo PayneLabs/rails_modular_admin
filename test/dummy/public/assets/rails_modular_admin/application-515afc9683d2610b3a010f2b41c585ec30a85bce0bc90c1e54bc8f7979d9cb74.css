@@ -1,0 +1,4464 @@
+@charset "UTF-8";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import url(animate.css/animate.css);
+@import url(dropzone/dist/dropzone.css);
+@import url(quill/dist/quill.core.css);
+@import url(quill/dist/quill.snow.css);
+@import url(morris.js/morris.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600);
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/jqvmap/dist/jqvmap.css */
+.jqvmap-label {
+  position: absolute;
+  display: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #292929;
+  color: white;
+  font-family: sans-serif, Verdana;
+  font-size: smaller;
+  padding: 3px;
+  pointer-events: none;
+}
+
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/jqvmap/dist/jqvmap.css */
+.jqvmap-pin {
+  pointer-events: none;
+}
+
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/jqvmap/dist/jqvmap.css */
+.jqvmap-zoomin, .jqvmap-zoomout {
+  position: absolute;
+  left: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #000000;
+  padding: 3px;
+  color: white;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  line-height: 10px;
+  text-align: center;
+}
+
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/jqvmap/dist/jqvmap.css */
+.jqvmap-zoomin {
+  top: 10px;
+}
+
+/* line 38, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/jqvmap/dist/jqvmap.css */
+.jqvmap-zoomout {
+  top: 30px;
+}
+
+/* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/jqvmap/dist/jqvmap.css */
+.jqvmap-region {
+  cursor: pointer;
+}
+
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/jqvmap/dist/jqvmap.css */
+.jqvmap-ajax_response {
+  width: 100%;
+  height: 500px;
+}
+
+/*!
+* metismenu - v2.7.8
+* A jQuery menu plugin
+* https://github.com/onokumus/metismenu#readme
+*
+* Made by Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
+* Under MIT License
+*/
+/* line 9, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .arrow {
+  float: right;
+  line-height: 1.42857;
+}
+
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+*[dir="rtl"] .metismenu .arrow {
+  float: left;
+}
+
+/*
+ * Require Bootstrap 3.x
+ * https://github.com/twbs/bootstrap
+*/
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .glyphicon.arrow:before {
+  content: "\e079";
+}
+
+/* line 25, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .active > a > .glyphicon.arrow:before {
+  content: "\e114";
+}
+
+/*
+ * Require Font-Awesome
+ * http://fortawesome.github.io/Font-Awesome/
+*/
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .fa.arrow:before {
+  content: "\f104";
+}
+
+/* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .active > a > .fa.arrow:before {
+  content: "\f107";
+}
+
+/*
+ * Require Ionicons
+ * http://ionicons.com/
+*/
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .ion.arrow:before {
+  content: "";
+}
+
+/* line 49, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .active > a > .ion.arrow:before {
+  content: "\f3d0";
+}
+
+/* line 52, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .plus-times {
+  float: right;
+}
+
+/* line 55, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+*[dir="rtl"] .metismenu .plus-times {
+  float: left;
+}
+
+/* line 58, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .fa.plus-times:before {
+  content: "\f067";
+}
+
+/* line 61, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .active > a > .fa.plus-times {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 65, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .plus-minus {
+  float: right;
+}
+
+/* line 68, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+*[dir="rtl"] .metismenu .plus-minus {
+  float: left;
+}
+
+/* line 71, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .fa.plus-minus:before {
+  content: "\f067";
+}
+
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .active > a > .fa.plus-minus:before {
+  content: "\f068";
+}
+
+/* line 77, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .collapse {
+  display: none;
+}
+
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .collapse.in {
+  display: block;
+}
+
+/* line 83, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-timing-function: ease;
+  transition-duration: .35s;
+  transition-property: height, visibility;
+}
+
+/* line 92, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .has-arrow {
+  position: relative;
+}
+
+/* line 96, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .has-arrow::after {
+  position: absolute;
+  content: '';
+  width: .5em;
+  height: .5em;
+  border-width: 1px 0 0 1px;
+  border-style: solid;
+  border-color: initial;
+  right: 1em;
+  -webkit-transform: rotate(-45deg) translate(0, -50%);
+  transform: rotate(-45deg) translate(0, -50%);
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  top: 50%;
+  transition: all .3s ease-out;
+}
+
+/* line 113, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+*[dir="rtl"] .metismenu .has-arrow::after {
+  right: auto;
+  left: 1em;
+  -webkit-transform: rotate(135deg) translate(0, -50%);
+  transform: rotate(135deg) translate(0, -50%);
+}
+
+/* line 120, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+.metismenu .active > .has-arrow::after,
+.metismenu .has-arrow[aria-expanded="true"]::after {
+  -webkit-transform: rotate(-135deg) translate(0, -50%);
+  transform: rotate(-135deg) translate(0, -50%);
+}
+
+/* line 126, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/metismenu/dist/metisMenu.css */
+*[dir="rtl"] .metismenu .active > .has-arrow::after,
+*[dir="rtl"] .metismenu .has-arrow[aria-expanded="true"]::after {
+  -webkit-transform: rotate(225deg) translate(0, -50%);
+  transform: rotate(225deg) translate(0, -50%);
+}
+
+/*# sourceMappingURL=metisMenu.css.map */
+/* Make clicks pass-through */
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/nprogress/nprogress.css */
+#nprogress {
+  pointer-events: none;
+}
+
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/nprogress/nprogress.css */
+#nprogress .bar {
+  background: #29d;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+/* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/nprogress/nprogress.css */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+  opacity: 1.0;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/nprogress/nprogress.css */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+/* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/nprogress/nprogress.css */
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: solid 2px transparent;
+  border-top-color: #29d;
+  border-left-color: #29d;
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+
+/* line 56, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/nprogress/nprogress.css */
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 61, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/nprogress/nprogress.css */
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*************************************************************
+*						App Variables
+**************************************************************/
+/*************************************************************
+*					  Colors Definitions
+**************************************************************/
+/*************************************************************
+*					Common Element Variables
+**************************************************************/
+/* ***************************************************
+*			Page Specific Element Variables
+****************************************************** */
+/*****************************************
+*       Background-image: cover mixin
+******************************************/
+/*****************************************
+*       Media Query Mixins
+******************************************/
+/* line 9, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #4f5f6f;
+  overflow-x: hidden;
+}
+
+/* line 20, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+.main-wrapper {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+#ref .color-primary {
+  color: #85CE36;
+}
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+#ref .chart .color-primary {
+  color: #85CE36;
+}
+/* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+#ref .chart .color-secondary {
+  color: #9ed85f;
+}
+
+/*************************************************************
+*						App Variables
+**************************************************************/
+/*************************************************************
+*					  Colors Definitions
+**************************************************************/
+/*************************************************************
+*					Common Element Variables
+**************************************************************/
+/* ***************************************************
+*			Page Specific Element Variables
+****************************************************** */
+/*****************************************
+*       Background-image: cover mixin
+******************************************/
+/*****************************************
+*       Media Query Mixins
+******************************************/
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+.row-sm {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+/* line 14, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+.row-sm [class^='col'] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 21, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+.title-block {
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d7dde4;
+}
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_clearfix.scss */
+.title-block::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+@media (max-width: 767.98px) {
+  /* line 21, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+  .title-block {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+.subtitle-block {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #e0e5ea;
+}
+
+/* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+.section {
+  display: block;
+  margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+  /* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+  .section {
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+  .section {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+  .section {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+  .section {
+    margin-bottom: 10px;
+  }
+}
+/* line 62, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+.section:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 67, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/layout.scss */
+.box-placeholder {
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 1px dashed #ddd;
+  background: #fafafa;
+  color: #444;
+  cursor: pointer;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.underline-animation {
+  position: absolute;
+  top: auto;
+  bottom: 1px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #85CE36;
+  content: '';
+  transition: all 0.2s;
+  backface-visibility: hidden;
+  transform: scaleX(0);
+}
+
+/* line 20, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.stat-chart {
+  border-radius: 50%;
+}
+
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.stat {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 31, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.stat .value {
+  font-size: 20px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+/* line 39, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.stat .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 45, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.stat.lg .value {
+  font-size: 26px;
+  line-height: 28px;
+}
+/* line 50, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.stat.lg .name {
+  font-size: 16px;
+}
+
+/* line 58, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.list-icon [class^='col'] {
+  cursor: pointer;
+}
+/* line 61, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.list-icon [class^='col'] em {
+  font-size: 14px;
+  width: 40px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  line-height: 30px;
+}
+/* line 75, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.list-icon [class^='col']:hover em {
+  transform: scale(2, 2);
+}
+
+/* line 83, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.well {
+  background-image: none;
+  background-color: #fff;
+}
+
+/* line 88, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.jumbotron {
+  background-image: none;
+  background-color: #fff;
+  padding: 15px 30px;
+}
+/* line 93, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.jumbotron.jumbotron-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 99, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.rounded {
+  border-radius: 0.25rem;
+}
+
+/* line 103, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.rounded-l {
+  border-radius: 0.3rem;
+}
+
+/* line 107, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.rounded-s {
+  border-radius: 0.2rem;
+}
+
+/* line 111, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/misc.scss */
+.jqstooltip {
+  height: 25px !important;
+  width: auto !important;
+  border-radius: 0.2rem;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.title {
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+/* line 8, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.title.l {
+  font-size: 1.6rem;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.title.s {
+  font-size: 1.4rem;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.card .title {
+  font-size: 1.1rem;
+  color: #4f5f6f;
+}
+
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.title-description {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #7e8e9f;
+}
+/* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.title-description.s {
+  font-size: 0.8rem;
+}
+@media (max-width: 767.98px) {
+  /* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+  .title-description {
+    display: none;
+  }
+}
+
+/* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.subtitle {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #7e8e9f;
+}
+
+/* line 48, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.text-primary {
+  color: #85CE36;
+}
+
+/* line 52, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+.text-muted {
+  color: #9ba8b5;
+}
+
+/* line 56, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/typography.scss */
+pre {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/alert/alert.scss */
+.alert {
+  background-image: none;
+}
+/* line 4, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/alert/alert.scss */
+.alert.alert-primary {
+  color: #ffffff;
+  background-color: #85CE36;
+  border-color: #85CE36;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-primary hr {
+  border-top-color: #78bd2e;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-primary .alert-link {
+  color: #e6e6e6;
+}
+/* line 8, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/alert/alert.scss */
+.alert.alert-success {
+  color: #ffffff;
+  background-color: #4bcf99;
+  border-color: #4bcf99;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-success hr {
+  border-top-color: #37ca8e;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-success .alert-link {
+  color: #e6e6e6;
+}
+/* line 12, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/alert/alert.scss */
+.alert.alert-info {
+  color: #ffffff;
+  background-color: #76D4F5;
+  border-color: #76D4F5;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-info hr {
+  border-top-color: #5ecdf3;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-info .alert-link {
+  color: #e6e6e6;
+}
+/* line 16, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/alert/alert.scss */
+.alert.alert-warning {
+  color: #ffffff;
+  background-color: #fe974b;
+  border-color: #fe974b;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-warning hr {
+  border-top-color: #fe8832;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-warning .alert-link {
+  color: #e6e6e6;
+}
+/* line 20, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/alert/alert.scss */
+.alert.alert-danger {
+  color: #ffffff;
+  background-color: #FF4444;
+  border-color: #FF4444;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-danger hr {
+  border-top-color: #ff2b2b;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-danger .alert-link {
+  color: #e6e6e6;
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/alert/alert.scss */
+.alert.alert-inverse {
+  color: #ffffff;
+  background-color: #131e26;
+  border-color: #131e26;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-inverse hr {
+  border-top-color: #0b1115;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_alert.scss */
+.alert.alert-inverse .alert-link {
+  color: #e6e6e6;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/animations/animations.scss */
+.animated {
+  animation-duration: .5s;
+  animation-delay: .1s;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn {
+  background-image: none;
+  border-radius: 0;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+/* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn, .btn:hover {
+  color: #ffffff;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-primary {
+  color: #212529;
+  background-color: #85CE36;
+  border-color: #85CE36;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn.btn-primary:hover {
+  color: #fff;
+  background-color: #72b22b;
+  border-color: #6ba829;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary:focus, .btn.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(133, 206, 54, 0.5);
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary.disabled, .btn.btn-primary:disabled {
+  color: #212529;
+  background-color: #85CE36;
+  border-color: #85CE36;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary:not(:disabled):not(.disabled):active, .btn.btn-primary:not(:disabled):not(.disabled).active, .show > .btn.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #6ba829;
+  border-color: #649e26;
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary:not(:disabled):not(.disabled):active:focus, .btn.btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(133, 206, 54, 0.5);
+}
+/* line 16, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-primary, .btn.btn-primary:hover {
+  color: #ffffff;
+}
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-secondary {
+  color: #212529;
+  background-color: #fff;
+  border-color: #d7dde4;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn.btn-secondary:hover {
+  color: #212529;
+  background-color: #ececec;
+  border-color: #b9c3cf;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary:focus, .btn.btn-secondary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(215, 221, 228, 0.5);
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary.disabled, .btn.btn-secondary:disabled {
+  color: #212529;
+  background-color: #fff;
+  border-color: #d7dde4;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary:not(:disabled):not(.disabled):active, .btn.btn-secondary:not(:disabled):not(.disabled).active, .show > .btn.btn-secondary.dropdown-toggle {
+  color: #212529;
+  background-color: #e6e6e6;
+  border-color: #b1bdca;
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn.btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(215, 221, 228, 0.5);
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-secondary, .btn.btn-secondary:hover {
+  color: #4f5f6f;
+}
+/* line 30, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-success {
+  color: #212529;
+  background-color: #4bcf99;
+  border-color: #4bcf99;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn.btn-success:hover {
+  color: #fff;
+  background-color: #33c087;
+  border-color: #31b680;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success:focus, .btn.btn-success.focus {
+  box-shadow: 0 0 0 0.2rem rgba(75, 207, 153, 0.5);
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success.disabled, .btn.btn-success:disabled {
+  color: #212529;
+  background-color: #4bcf99;
+  border-color: #4bcf99;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success:not(:disabled):not(.disabled):active, .btn.btn-success:not(:disabled):not(.disabled).active, .show > .btn.btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #31b680;
+  border-color: #2eac79;
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success:not(:disabled):not(.disabled):active:focus, .btn.btn-success:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(75, 207, 153, 0.5);
+}
+/* line 35, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-info {
+  color: #212529;
+  background-color: #76D4F5;
+  border-color: #76D4F5;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn.btn-info:hover {
+  color: #212529;
+  background-color: #52c9f2;
+  border-color: #46c5f2;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info:focus, .btn.btn-info.focus {
+  box-shadow: 0 0 0 0.2rem rgba(118, 212, 245, 0.5);
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info.disabled, .btn.btn-info:disabled {
+  color: #212529;
+  background-color: #76D4F5;
+  border-color: #76D4F5;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info:not(:disabled):not(.disabled):active, .btn.btn-info:not(:disabled):not(.disabled).active, .show > .btn.btn-info.dropdown-toggle {
+  color: #212529;
+  background-color: #46c5f2;
+  border-color: #3bc1f1;
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info:not(:disabled):not(.disabled):active:focus, .btn.btn-info:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-info.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(118, 212, 245, 0.5);
+}
+/* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-warning {
+  color: #212529;
+  background-color: #fe974b;
+  border-color: #fe974b;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn.btn-warning:hover {
+  color: #212529;
+  background-color: #fe8125;
+  border-color: #fe7a18;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning:focus, .btn.btn-warning.focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 151, 75, 0.5);
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning.disabled, .btn.btn-warning:disabled {
+  color: #212529;
+  background-color: #fe974b;
+  border-color: #fe974b;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning:not(:disabled):not(.disabled):active, .btn.btn-warning:not(:disabled):not(.disabled).active, .show > .btn.btn-warning.dropdown-toggle {
+  color: #212529;
+  background-color: #fe7a18;
+  border-color: #fe720c;
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning:not(:disabled):not(.disabled):active:focus, .btn.btn-warning:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-warning.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 151, 75, 0.5);
+}
+/* line 45, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-danger {
+  color: #fff;
+  background-color: #FF4444;
+  border-color: #FF4444;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_hover.scss */
+.btn.btn-danger:hover {
+  color: #fff;
+  background-color: #ff1e1e;
+  border-color: #ff1111;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger:focus, .btn.btn-danger.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 68, 68, 0.5);
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger.disabled, .btn.btn-danger:disabled {
+  color: #fff;
+  background-color: #FF4444;
+  border-color: #FF4444;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger:not(:disabled):not(.disabled):active, .btn.btn-danger:not(:disabled):not(.disabled).active, .show > .btn.btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #ff1111;
+  border-color: #ff0404;
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger:not(:disabled):not(.disabled):active:focus, .btn.btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-danger.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 68, 68, 0.5);
+}
+/* line 51, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-primary-outline {
+  color: #85CE36;
+  background-color: transparent;
+  background-image: none;
+  border-color: #85CE36;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary-outline:hover {
+  color: #212529;
+  background-color: #85CE36;
+  border-color: #85CE36;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary-outline:focus, .btn.btn-primary-outline.focus {
+  box-shadow: 0 0 0 0.2rem rgba(133, 206, 54, 0.5);
+}
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary-outline.disabled, .btn.btn-primary-outline:disabled {
+  color: #85CE36;
+  background-color: transparent;
+}
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary-outline:not(:disabled):not(.disabled):active, .btn.btn-primary-outline:not(:disabled):not(.disabled).active, .show > .btn.btn-primary-outline.dropdown-toggle {
+  color: #212529;
+  background-color: #85CE36;
+  border-color: #85CE36;
+}
+/* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-primary-outline:not(:disabled):not(.disabled):active:focus, .btn.btn-primary-outline:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-primary-outline.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(133, 206, 54, 0.5);
+}
+/* line 55, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-secondary-outline {
+  color: #d7dde4;
+  background-color: transparent;
+  background-image: none;
+  border-color: #d7dde4;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary-outline:hover {
+  color: #212529;
+  background-color: #d7dde4;
+  border-color: #d7dde4;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary-outline:focus, .btn.btn-secondary-outline.focus {
+  box-shadow: 0 0 0 0.2rem rgba(215, 221, 228, 0.5);
+}
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary-outline.disabled, .btn.btn-secondary-outline:disabled {
+  color: #d7dde4;
+  background-color: transparent;
+}
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary-outline:not(:disabled):not(.disabled):active, .btn.btn-secondary-outline:not(:disabled):not(.disabled).active, .show > .btn.btn-secondary-outline.dropdown-toggle {
+  color: #212529;
+  background-color: #d7dde4;
+  border-color: #d7dde4;
+}
+/* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-secondary-outline:not(:disabled):not(.disabled):active:focus, .btn.btn-secondary-outline:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-secondary-outline.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(215, 221, 228, 0.5);
+}
+/* line 59, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-info-outline {
+  color: #76D4F5;
+  background-color: transparent;
+  background-image: none;
+  border-color: #76D4F5;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info-outline:hover {
+  color: #212529;
+  background-color: #76D4F5;
+  border-color: #76D4F5;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info-outline:focus, .btn.btn-info-outline.focus {
+  box-shadow: 0 0 0 0.2rem rgba(118, 212, 245, 0.5);
+}
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info-outline.disabled, .btn.btn-info-outline:disabled {
+  color: #76D4F5;
+  background-color: transparent;
+}
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info-outline:not(:disabled):not(.disabled):active, .btn.btn-info-outline:not(:disabled):not(.disabled).active, .show > .btn.btn-info-outline.dropdown-toggle {
+  color: #212529;
+  background-color: #76D4F5;
+  border-color: #76D4F5;
+}
+/* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-info-outline:not(:disabled):not(.disabled):active:focus, .btn.btn-info-outline:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-info-outline.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(118, 212, 245, 0.5);
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-success-outline {
+  color: #4bcf99;
+  background-color: transparent;
+  background-image: none;
+  border-color: #4bcf99;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success-outline:hover {
+  color: #212529;
+  background-color: #4bcf99;
+  border-color: #4bcf99;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success-outline:focus, .btn.btn-success-outline.focus {
+  box-shadow: 0 0 0 0.2rem rgba(75, 207, 153, 0.5);
+}
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success-outline.disabled, .btn.btn-success-outline:disabled {
+  color: #4bcf99;
+  background-color: transparent;
+}
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success-outline:not(:disabled):not(.disabled):active, .btn.btn-success-outline:not(:disabled):not(.disabled).active, .show > .btn.btn-success-outline.dropdown-toggle {
+  color: #212529;
+  background-color: #4bcf99;
+  border-color: #4bcf99;
+}
+/* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-success-outline:not(:disabled):not(.disabled):active:focus, .btn.btn-success-outline:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-success-outline.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(75, 207, 153, 0.5);
+}
+/* line 67, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-warning-outline {
+  color: #fe974b;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fe974b;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning-outline:hover {
+  color: #212529;
+  background-color: #fe974b;
+  border-color: #fe974b;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning-outline:focus, .btn.btn-warning-outline.focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 151, 75, 0.5);
+}
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning-outline.disabled, .btn.btn-warning-outline:disabled {
+  color: #fe974b;
+  background-color: transparent;
+}
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning-outline:not(:disabled):not(.disabled):active, .btn.btn-warning-outline:not(:disabled):not(.disabled).active, .show > .btn.btn-warning-outline.dropdown-toggle {
+  color: #212529;
+  background-color: #fe974b;
+  border-color: #fe974b;
+}
+/* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-warning-outline:not(:disabled):not(.disabled):active:focus, .btn.btn-warning-outline:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-warning-outline.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 151, 75, 0.5);
+}
+/* line 71, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-danger-outline {
+  color: #FF4444;
+  background-color: transparent;
+  background-image: none;
+  border-color: #FF4444;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger-outline:hover {
+  color: #fff;
+  background-color: #FF4444;
+  border-color: #FF4444;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger-outline:focus, .btn.btn-danger-outline.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 68, 68, 0.5);
+}
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger-outline.disabled, .btn.btn-danger-outline:disabled {
+  color: #FF4444;
+  background-color: transparent;
+}
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger-outline:not(:disabled):not(.disabled):active, .btn.btn-danger-outline:not(:disabled):not(.disabled).active, .show > .btn.btn-danger-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #FF4444;
+  border-color: #FF4444;
+}
+/* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_buttons.scss */
+.btn.btn-danger-outline:not(:disabled):not(.disabled):active:focus, .btn.btn-danger-outline:not(:disabled):not(.disabled).active:focus, .show > .btn.btn-danger-outline.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 68, 68, 0.5);
+}
+/* line 78, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-pill-left:focus, .btn.btn-pill-right:focus, .btn.btn-oval:focus {
+  outline: none;
+  outline-offset: initial;
+}
+/* line 84, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-pill-left {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+/* line 89, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-pill-right {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+/* line 94, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-oval {
+  border-radius: 25px;
+}
+/* line 98, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn.btn-link {
+  text-decoration: none;
+}
+/* line 102, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn strong {
+  font-weight: 600;
+}
+
+/* line 111, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/button/button.scss */
+.btn-group .dropdown-menu > li:last-child a:hover:before {
+  height: 0px;
+  transform: scaleX(0);
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+  margin-bottom: 10px;
+  border-radius: 0;
+  border: none;
+}
+/* line 5, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card {
+  box-shadow: none;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header {
+  background-image: none;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  border-radius: 0;
+  min-height: 50px;
+  border: none;
+}
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_clearfix.scss */
+.card .card-header::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+/* line 26, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header.bordered {
+  border-bottom: 1px solid #d7dde4;
+}
+/* line 30, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header.card-header-sm {
+  min-height: 40px;
+}
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header > span {
+  vertical-align: middle;
+}
+/* line 38, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .pull-right {
+  margin-left: auto;
+}
+/* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .header-block {
+  padding: 0.5rem 15px;
+}
+@media (min-width: 1200px) {
+  /* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+  .card .card-header .header-block {
+    padding: 0.5rem 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+  .card .card-header .header-block {
+    padding: 0.5rem 10px;
+  }
+}
+/* line 55, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .title {
+  color: #4f5f6f;
+  display: inline-flex;
+}
+/* line 60, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .btn {
+  margin: 0;
+}
+/* line 64, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .nav-tabs {
+  border-color: transparent;
+  align-self: stretch;
+  display: flex;
+  position: relative;
+  top: 1px;
+}
+/* line 71, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .nav-tabs .nav-item {
+  margin-left: 0;
+  display: flex;
+  align-self: stretch;
+}
+/* line 76, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .nav-tabs .nav-item .nav-link {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  color: #4f5f6f;
+  opacity: 0.7;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0;
+  font-size: 14px;
+  border-top-width: 2px;
+  border-bottom: 1px solid #d7dde4;
+  text-decoration: none;
+}
+/* line 90, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .nav-tabs .nav-item .nav-link.active {
+  border-top-color: #85CE36;
+  border-bottom-color: transparent;
+  opacity: 1;
+}
+/* line 95, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .nav-tabs .nav-item .nav-link.active:hover, .card .card-header .nav-tabs .nav-item .nav-link.active:focus {
+  opacity: 1;
+  background-color: #ffffff;
+  border-color: #d7dde4 #d7dde4 transparent;
+  border-top-color: #85CE36;
+}
+/* line 104, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .card-header .nav-tabs .nav-item .nav-link:hover, .card .card-header .nav-tabs .nav-item .nav-link:focus {
+  opacity: 1;
+  background-color: transparent;
+  border-color: transparent;
+}
+/* line 117, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-default > .card-header {
+  background-color: #fff;
+  color: inherit;
+}
+/* line 123, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-primary {
+  border-color: #85CE36;
+}
+/* line 125, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-primary > .card-header {
+  background-color: #85CE36;
+  border-color: #85CE36;
+}
+/* line 132, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-success > .card-header {
+  background-color: #4bcf99;
+}
+/* line 138, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-info > .card-header {
+  background-color: #76D4F5;
+}
+/* line 144, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-warning > .card-header {
+  background-color: #fe974b;
+}
+/* line 150, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-danger > .card-header {
+  background-color: #FF4444;
+}
+/* line 156, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card.card-inverse > .card-header {
+  background-color: #131e26;
+}
+/* line 161, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .title-block,
+.card .card-title-block {
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  border: none;
+}
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_clearfix.scss */
+.card .title-block::after,
+.card .card-title-block::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+/* line 170, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .section {
+  margin-bottom: 20px;
+}
+/* line 174, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card .example,
+.card .section.demo {
+  margin-bottom: 20px;
+}
+
+/* line 181, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card-block {
+  padding: 15px;
+}
+/* line 184, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card-block .tab-content {
+  padding: 0;
+  border-color: transparent;
+}
+@media (min-width: 1200px) {
+  /* line 181, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+  .card-block {
+    padding: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 181, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+  .card-block {
+    padding: 10px;
+  }
+}
+
+/* line 198, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/card/card.scss */
+.card-footer {
+  background-color: #fafafa;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/chart/chart.scss */
+.easy-pie-chart {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #d7dde4;
+  border-radius: 5px;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/dropdown/dropdown.scss */
+.dropdown-menu {
+  float: left;
+  box-shadow: 2px 3px 6px rgba(126, 142, 159, 0.1);
+  border: 1px solid rgba(126, 142, 159, 0.1);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 9, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/dropdown/dropdown.scss */
+.dropdown-menu .dropdown-item {
+  display: block;
+  padding: 0px 15px;
+  clear: both;
+  font-weight: normal;
+  color: #4f5f6f;
+  white-space: nowrap;
+  transition: none;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/dropdown/dropdown.scss */
+.dropdown-menu .dropdown-item i {
+  margin-right: 2px;
+}
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/dropdown/dropdown.scss */
+.dropdown-menu .dropdown-item:hover {
+  color: #85CE36 !important;
+  background: none;
+  background-color: whitesmoke;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/flex/flex.scss */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/flex/flex.scss */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/flex/flex.scss */
+.centralize-y {
+  display: flex;
+  align-items: center;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+input,
+textarea {
+  outline: none;
+}
+
+/* line 8, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+/* line 12, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group .row [class^='col'] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group.has-error span.has-error {
+  color: #FF4444;
+  font-size: 13px;
+  display: block !important;
+}
+/* line 25, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group.has-error .form-control-feedback {
+  color: #FF4444;
+}
+/* line 31, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group.has-warning span.has-warning {
+  color: #fe974b;
+  font-size: 13px;
+  display: block !important;
+}
+/* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group.has-warning .form-control-feedback {
+  color: #fe974b;
+}
+/* line 43, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group.has-success span.has-success {
+  color: #4bcf99;
+  font-size: 13px;
+  display: block !important;
+}
+/* line 49, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-group.has-success .form-control-feedback {
+  color: #4bcf99;
+}
+
+/* Input groups */
+/* line 56, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.input-group {
+  margin-bottom: 10px;
+}
+/* line 59, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.input-group .form-control {
+  padding-left: 5px;
+}
+/* line 64, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.input-group .input-group-btn .btn {
+  margin-bottom: 0;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.input-group span.input-group-addon {
+  font-style: italic;
+  border: none;
+  border-radius: 0;
+  border: none;
+  background-color: #d7dde4;
+  transition: background-color ease-in-out 15s, color ease-in-out .15s;
+}
+/* line 77, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.input-group span.input-group-addon.focus {
+  background-color: #85CE36;
+  color: #ffffff;
+}
+
+/* line 84, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+label,
+.control-label {
+  font-weight: 600;
+}
+
+/* line 89, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control.underlined {
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #d7dde4;
+}
+/* line 98, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control.underlined.indented {
+  padding: .375rem .75rem;
+}
+/* line 102, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.has-error .form-control.underlined:focus, .has-warning .form-control.underlined:focus, .has-success .form-control.underlined:focus, .form-control.underlined:focus {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #85CE36;
+}
+/* line 111, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.has-error .form-control.underlined {
+  box-shadow: none;
+  border-color: #FF4444;
+}
+/* line 116, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.has-warning .form-control.underlined {
+  box-shadow: none;
+  border-color: #fe974b;
+}
+/* line 121, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.has-success .form-control.underlined {
+  box-shadow: none;
+  border-color: #4bcf99;
+}
+
+/* line 127, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control.boxed {
+  border-radius: 0;
+  box-shadow: none;
+}
+/* line 131, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control.boxed:focus {
+  border: 1px solid #85CE36;
+}
+
+/* line 136, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio,
+.checkbox {
+  display: none;
+}
+/* line 140, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio + span,
+.checkbox + span {
+  padding: 0;
+  padding-right: 10px;
+}
+/* line 145, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio + span:before,
+.checkbox + span:before {
+  font-family: FontAwesome;
+  font-size: 21px;
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 10px;
+  color: #c8d0da;
+}
+/* line 154, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio:checked + span:before,
+.checkbox:checked + span:before {
+  color: #85CE36;
+}
+/* line 158, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio:disabled + span:before,
+.checkbox:disabled + span:before {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/* line 163, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio:checked:disabled + span:before,
+.checkbox:checked:disabled + span:before {
+  color: #c8d0da;
+}
+
+/* line 170, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.checkbox + span:before {
+  content: "\f0c8";
+}
+/* line 174, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.checkbox:checked + span:before {
+  content: "\f14a";
+}
+/* line 179, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.checkbox.rounded + span:before {
+  content: "\f111";
+}
+/* line 183, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.checkbox.rounded:checked + span:before {
+  content: "\f058";
+}
+
+/* line 191, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio + span:before {
+  content: "\f111";
+}
+/* line 195, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio:checked + span:before {
+  content: "\f192";
+}
+/* line 200, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio.squared + span:before {
+  content: "\f0c8";
+}
+/* line 204, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.radio.squared:checked + span:before {
+  content: "\f14a";
+}
+
+/* line 214, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control::-webkit-input-placeholder {
+  font-style: italic;
+  color: #c8d0da;
+}
+/* line 219, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  font-style: italic;
+  color: #d7dde4;
+}
+/* line 224, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  font-style: italic;
+  color: #d7dde4;
+}
+/* line 229, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/form/form.scss */
+.form-control:-ms-input-placeholder {
+  font-style: italic;
+  color: #d7dde4;
+}
+
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_clearfix.scss */
+.images-container::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image-container {
+  float: left;
+  padding: 3px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+  position: relative;
+  border: 1px solid #e6eaee;
+  overflow: hidden;
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image-container.active {
+  border-color: #85CE36;
+}
+/* line 28, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image-container:hover .controls {
+  bottom: 0;
+  opacity: 1;
+}
+/* line 35, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  bottom: -35px;
+  text-align: center;
+  height: 35px;
+  font-size: 24px;
+  transition: bottom 0.2s ease, opacity 0.2s ease;
+  background-color: #fff;
+}
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_clearfix.scss */
+.images-container .controls::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+/* line 50, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls .control-btn {
+  display: inline-block;
+  color: #4f5f6f;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls .control-btn:hover {
+  opacity: 1;
+}
+/* line 69, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls .control-btn.move {
+  cursor: move;
+}
+/* line 73, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls .control-btn.star {
+  color: #FFB300;
+}
+/* line 76, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls .control-btn.star i:before {
+  content: "\f006";
+}
+/* line 81, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls .control-btn.star.active i:before {
+  content: "\f005";
+}
+/* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .controls .control-btn.remove {
+  color: #FF4444;
+}
+/* line 93, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 135px;
+  line-height: 135px;
+  text-align: center;
+}
+/* line 110, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image-container.main {
+  border-color: #FFB300;
+}
+/* line 114, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image-container.new {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  border-style: dashed;
+  border: 1px #85CE36 solid;
+  color: #85CE36;
+}
+/* line 121, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image-container.new .image {
+  font-size: 2.5rem;
+}
+/* line 125, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/images-container/images-container.scss */
+.images-container .image-container.new:hover {
+  opacity: 1;
+}
+
+/* *******************************************
+*		  Item List general styles
+********************************************** */
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+  line-height: 1.4rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list {
+    font-size: 1.05rem;
+  }
+}
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list.striped > li {
+  border-bottom: 1px solid #e9edf0;
+}
+/* line 38, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list.striped > li:nth-child(2n + 1) {
+  background-color: #fcfcfd;
+}
+@media (max-width: 767.98px) {
+  /* line 38, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list.striped > li:nth-child(2n + 1) {
+    background-color: #f8f9fb;
+  }
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list.striped .item-list-footer {
+  border-bottom: none;
+}
+
+/* *******************************************
+*			Item general styles
+********************************************** */
+/* line 59, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item {
+  display: flex;
+  flex-direction: column;
+}
+/* line 64, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-row {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 100%;
+}
+/* line 72, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-row.nowrap {
+  flex-wrap: nowrap;
+}
+/* line 77, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col {
+  align-items: center;
+  display: flex;
+  padding: 10px 10px 10px 0;
+  flex-basis: 0;
+  flex-grow: 3;
+  flex-shrink: 3;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 0;
+}
+/* line 88, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.fixed {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+/* line 94, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.pull-left {
+  margin-right: auto;
+}
+/* line 98, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.pull-right {
+  margin-left: auto;
+}
+/* line 102, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col > div {
+  width: 100%;
+}
+/* line 106, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col:last-child {
+  padding-right: 0;
+}
+/* line 111, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .no-overflow {
+  overflow: hidden;
+}
+/* line 115, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .no-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* *******************************************
+*				Item components
+********************************************** */
+/* line 128, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list {
+  /********************************************
+  *					Header
+  *********************************************/
+  /********************************************
+  *					Heading
+  *********************************************/
+  /********************************************
+  *					Checkbox
+  *********************************************/
+  /********************************************
+  *					Image
+  *********************************************/
+  /********************************************
+  *					Title
+  *********************************************/
+  /********************************************
+  *					Stats
+  *********************************************/
+  /********************************************
+  *				     Actions
+  *********************************************/
+  /********************************************
+  *			   Something else?
+  *********************************************/
+}
+/* line 136, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-list-header .item-col.item-col-header span {
+  color: #999;
+  font-size: 0.8rem;
+  font-weight: 700 !important;
+}
+/* line 148, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-heading {
+  font-size: 0.9rem;
+  display: none;
+  color: #666;
+  font-weight: 700;
+  padding-right: 10px;
+}
+@media (max-width: 767.98px) {
+  /* line 148, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list .item-heading {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 148, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list .item-heading {
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  /* line 148, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list .item-heading {
+    width: 40%;
+  }
+}
+/* line 172, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-check {
+  flex-basis: 30px;
+}
+@media (max-width: 767.98px) {
+  /* line 172, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list .item-col.item-col-check {
+    order: -8;
+  }
+}
+/* line 180, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-check {
+  margin-bottom: 0;
+}
+/* line 183, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-check .checkbox + span {
+  padding-right: 0;
+}
+/* line 186, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-check .checkbox + span:before {
+  width: 20px;
+}
+/* line 196, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-img {
+  display: flex;
+  flex-basis: 70px;
+}
+/* line 200, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-img.xs {
+  flex-basis: 40px;
+}
+/* line 204, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-img.sm {
+  flex-basis: 50px;
+}
+/* line 208, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-img.lg {
+  flex-basis: 100px;
+}
+/* line 212, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-img.xl {
+  flex-basis: 120px;
+}
+/* line 216, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-img a {
+  width: 100%;
+}
+/* line 222, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-img {
+  flex-grow: 1;
+  align-self: stretch;
+  background-color: #efefef;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767.98px) {
+  /* line 237, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list .item-col.item-col-title {
+    order: -4;
+  }
+}
+/* line 243, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-title a {
+  display: block;
+}
+/* line 248, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-title {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 600;
+}
+/* line 259, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-stats {
+  height: 1.4rem;
+}
+/* line 267, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-col.item-col-actions-dropdown {
+  flex-basis: 40px;
+  text-align: center;
+  padding-left: 0 !important;
+}
+@media (max-width: 767.98px) {
+  /* line 267, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .item-list .item-col.item-col-actions-dropdown {
+    order: -3;
+    flex-basis: 40px !important;
+    padding-right: 10px;
+  }
+}
+/* line 280, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown {
+  position: relative;
+  font-size: 1.1rem;
+}
+/* line 285, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown.active .item-actions-block {
+  max-width: 120px;
+}
+/* line 289, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown.active .item-actions-toggle-btn {
+  color: #85CE36;
+}
+/* line 292, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown.active .item-actions-toggle-btn .active {
+  display: block;
+}
+/* line 296, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown.active .item-actions-toggle-btn .inactive {
+  display: none;
+}
+/* line 302, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-toggle-btn {
+  color: #9ba8b5;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 311, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-toggle-btn .active {
+  display: none;
+}
+/* line 316, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block {
+  height: 30px;
+  max-width: 0px;
+  line-height: 30px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background-color: #d7dde4;
+  border-radius: 3px;
+  transition: all 0.15s ease-in-out;
+}
+/* line 328, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block.direction-right {
+  right: auto;
+  left: 100%;
+}
+/* line 334, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block .item-actions-list {
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  padding: 0 5px;
+}
+/* line 340, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block .item-actions-list li {
+  display: inline-block;
+  padding: 0;
+}
+/* line 345, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block .item-actions-list a {
+  display: block;
+  padding: 0 5px;
+}
+/* line 349, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block .item-actions-list a.edit {
+  color: #38424C;
+}
+/* line 353, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block .item-actions-list a.check {
+  color: #40B726;
+}
+/* line 357, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.item-list .item-actions-dropdown .item-actions-block .item-actions-list a.remove {
+  color: #DB0E1E;
+}
+
+/* *******************************************
+*				Adjustments
+********************************************** */
+/* line 378, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+.card > .item-list .item > .item-row {
+  padding: 0 15px;
+}
+@media (min-width: 1200px) {
+  /* line 378, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .card > .item-list .item > .item-row {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 378, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/items-list/items-list.scss */
+  .card > .item-list .item > .item-row {
+    padding: 0 10px;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/logo/logo.scss */
+.logo {
+  display: inline-block;
+  width: 45px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: relative;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/logo/logo.scss */
+.logo .l {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #85CE36;
+  position: absolute;
+}
+/* line 17, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/logo/logo.scss */
+.logo .l.l1 {
+  bottom: 0;
+  left: 0;
+}
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/logo/logo.scss */
+.logo .l.l2 {
+  width: 7px;
+  height: 7px;
+  bottom: 13px;
+  left: 10px;
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/logo/logo.scss */
+.logo .l.l3 {
+  width: 7px;
+  height: 7px;
+  bottom: 4px;
+  left: 17px;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/logo/logo.scss */
+.logo .l.l4 {
+  bottom: 13px;
+  left: 25px;
+}
+/* line 41, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/logo/logo.scss */
+.logo .l.l5 {
+  bottom: 0;
+  left: 34px;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/modal/modal-tabs.scss */
+.modal-body.modal-tab-container {
+  padding: 0;
+}
+/* line 4, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/modal/modal-tabs.scss */
+.modal-body.modal-tab-container .modal-tabs {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+/* line 12, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/modal/modal-tabs.scss */
+.modal-body.modal-tab-container .modal-tabs .nav-link {
+  padding: 10px 20px;
+  border: none;
+}
+/* line 16, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/modal/modal-tabs.scss */
+.modal-body.modal-tab-container .modal-tabs .nav-link:hover, .modal-body.modal-tab-container .modal-tabs .nav-link.active {
+  color: #85CE36;
+  border-bottom: 2px solid #85CE36;
+}
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/modal/modal-tabs.scss */
+.modal-body.modal-tab-container .modal-tabs .nav-link.active {
+  font-weight: 600;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+a:not(.btn) {
+  transition: initial;
+  text-decoration: underline;
+  color: #969696;
+}
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+a:not(.btn):hover {
+  text-decoration: underline;
+  color: #70b02b;
+}
+/* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+a:not(.btn):hover:before {
+  transform: scaleX(1);
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+a:not(.btn):focus {
+  text-decoration: none;
+}
+
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+span a {
+  vertical-align: text-bottom;
+}
+
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+[class^='nav'] li > a,
+[class*=' nav'] li > a {
+  display: block;
+}
+/* line 41, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+[class^='nav'] li > a:before,
+[class*=' nav'] li > a:before {
+  display: none;
+}
+
+/* line 49, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-tabs-bordered {
+  border-color: #85CE36;
+}
+/* line 52, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-tabs-bordered + .tab-content {
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  border-color: #85CE36;
+  padding: 10px 20px 0;
+}
+/* line 61, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-tabs-bordered .nav-item .nav-link {
+  text-decoration: none;
+}
+/* line 64, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-tabs-bordered .nav-item .nav-link:hover {
+  color: #ffffff;
+  background-color: #85CE36;
+  border: 1px solid #85CE36;
+}
+/* line 70, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-tabs-bordered .nav-item .nav-link.active {
+  border-color: #85CE36;
+  border-bottom-color: transparent;
+}
+/* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-tabs-bordered .nav-item .nav-link.active:hover {
+  background-color: #ffffff;
+  color: inherit;
+}
+/* line 85, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-pills + .tab-content {
+  border: 0;
+  padding: 5px;
+}
+/* line 92, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-pills .nav-item .nav-link {
+  text-decoration: none;
+}
+/* line 95, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-pills .nav-item .nav-link:hover {
+  color: #4f5f6f;
+  background-color: transparent;
+  border: 0;
+}
+/* line 101, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-pills .nav-item .nav-link.active {
+  border-color: #85CE36;
+  border-bottom-color: transparent;
+  background-color: #85CE36;
+}
+/* line 106, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/navigation/navigation.scss */
+.nav.nav-pills .nav-item .nav-link.active:hover {
+  background-color: #85CE36;
+  color: #ffffff;
+}
+
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/nprogress/nprogress.scss */
+#nprogress .bar {
+  background: #85CE36 !important;
+}
+/* line 5, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/nprogress/nprogress.scss */
+#nprogress .bar .peg {
+  box-shadow: 0 0 10px #85CE36, 0 0 5px #85CE36;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/nprogress/nprogress.scss */
+#nprogress .spinner {
+  top: 25px !important;
+  right: 23px !important;
+}
+/* line 14, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/nprogress/nprogress.scss */
+#nprogress .spinner .spinner-icon {
+  border-top-color: #85CE36 !important;
+  border-left-color: #85CE36 !important;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/pagination/pagination.scss */
+.pagination {
+  margin-top: 0;
+  display: inline-flex;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/pagination/pagination.scss */
+.pagination .page-item .page-link {
+  color: #85CE36;
+}
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/pagination/pagination.scss */
+.pagination .page-item.active .page-link,
+.pagination .page-item.active .page-link:focus,
+.pagination .page-item.active .page-link:hover {
+  color: #fff;
+  border-color: #85CE36;
+  background-color: #85CE36;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/sameheight-items/sameheight-items.scss */
+.sameheight {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+/* Let's get this party started */
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/scrollbar/scrollbar.scss */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+/* line 8, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/scrollbar/scrollbar.scss */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* Handle */
+/* line 16, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/scrollbar/scrollbar.scss */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: #78bd2e;
+}
+
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/scrollbar/scrollbar.scss */
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #85CE36;
+}
+
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/table/table.scss */
+.table label {
+  margin-bottom: 0;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/table/table.scss */
+.table .checkbox + span {
+  margin-bottom: 0;
+}
+/* line 8, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/table/table.scss */
+.table .checkbox + span:before {
+  line-height: 20px;
+}
+
+/*************************************************************
+*						App Variables
+**************************************************************/
+/*************************************************************
+*					  Colors Definitions
+**************************************************************/
+/*************************************************************
+*					Common Element Variables
+**************************************************************/
+/* ***************************************************
+*			Page Specific Element Variables
+****************************************************** */
+/*****************************************
+*       Background-image: cover mixin
+******************************************/
+/*****************************************
+*       Media Query Mixins
+******************************************/
+/* line 9, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #4f5f6f;
+  overflow-x: hidden;
+}
+
+/* line 20, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+.main-wrapper {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+#ref .color-primary {
+  color: #85CE36;
+}
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+#ref .chart .color-primary {
+  color: #85CE36;
+}
+/* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_main.scss */
+#ref .chart .color-secondary {
+  color: #9ed85f;
+}
+
+/*************************************************************
+*						App Variables
+**************************************************************/
+/*************************************************************
+*					  Colors Definitions
+**************************************************************/
+/*************************************************************
+*					Common Element Variables
+**************************************************************/
+/* ***************************************************
+*			Page Specific Element Variables
+****************************************************** */
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/editor/editor.scss */
+.wyswyg {
+  border: 1px solid #d7dde4;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/editor/editor.scss */
+.wyswyg .ql-container {
+  border-top: 1px solid #d7dde4;
+}
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/editor/editor.scss */
+.wyswyg .toolbar .btn {
+  margin: 0;
+}
+/* line 21, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/editor/editor.scss */
+.wyswyg .ql-container {
+  font-size: 1rem;
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/editor/editor.scss */
+.wyswyg .ql-container .ql-editor {
+  min-height: 200px;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer {
+  background-color: #fff;
+  position: absolute;
+  left: 240px;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 12, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer-fixed .footer {
+  position: fixed;
+}
+/* line 17, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer .footer-block {
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer .footer-github-btn {
+  vertical-align: middle;
+}
+@media (max-width: 991.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+  .footer {
+    left: 0;
+  }
+}
+/* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer .author > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer .author > ul li {
+  display: inline-block;
+}
+/* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer .author > ul li:after {
+  content: "|";
+}
+/* line 44, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+.footer .author > ul li:last-child:after {
+  content: "";
+}
+@media (max-width: 991.98px) {
+  /* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+  .footer .author > ul li {
+    display: block;
+    text-align: right;
+  }
+  /* line 53, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+  .footer .author > ul li:after {
+    content: "";
+  }
+}
+@media (max-width: 991.98px) {
+  /* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+  .footer .author > ul {
+    display: block;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/footer/footer.scss */
+  .footer .author > ul {
+    display: none;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/buttons/buttons.scss */
+.header .header-block-buttons {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
+/* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/buttons/buttons.scss */
+.header .header-block-buttons .btn.header-btn {
+  background-color: transparent;
+  border: 1px solid #64798d;
+  color: #64798d;
+  margin: 0 5px;
+  border-radius: 0.2rem;
+}
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/buttons/buttons.scss */
+.header .header-block-buttons .btn.header-btn:hover, .header .header-block-buttons .btn.header-btn:focus {
+  border: 1px solid #3a4651;
+  color: #3a4651;
+}
+@media (max-width: 767.98px) {
+  /* line 23, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/buttons/buttons.scss */
+  .header .header-block-buttons .btn.header-btn span {
+    display: none;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/collapse/collapse.scss */
+.header .header-block-collapse {
+  padding-right: 5px;
+}
+@media (max-width: 767.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/collapse/collapse.scss */
+  .header .header-block-collapse {
+    width: 155px;
+  }
+}
+/* line 9, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/collapse/collapse.scss */
+.header .header-block-collapse .collapse-btn {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: #85CE36;
+  font-size: 24px;
+  line-height: 40px;
+  border-radius: 0;
+  outline: none;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: initial;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/header.scss */
+.header {
+  background-color: #d7dde4;
+  height: 70px;
+  position: absolute;
+  left: 240px;
+  right: 0;
+  transition: left 0.3s ease;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 991.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/header.scss */
+  .header {
+    left: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/header.scss */
+  .header {
+    left: 0;
+    height: 50px;
+  }
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/header.scss */
+.header-fixed .header {
+  position: fixed;
+}
+@media (max-width: 767.98px) {
+  /* line 28, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/header.scss */
+  .header .header-block {
+    padding: 5px;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav {
+  margin-left: auto;
+  white-space: nowrap;
+  padding-right: 15px;
+}
+@media (max-width: 767.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+  .header .header-block-nav {
+    padding-right: 25px;
+  }
+}
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/node_modules/bootstrap/scss/mixins/_clearfix.scss */
+.header .header-block-nav::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+/* line 12, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav a {
+  text-decoration: none;
+}
+/* line 17, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 23, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav > ul {
+  display: table;
+}
+/* line 28, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav > ul > li {
+  display: table-cell;
+  position: relative;
+}
+/* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav > ul > li:before {
+  display: block;
+  content: " ";
+  width: 1px;
+  height: 24px;
+  top: 50%;
+  margin-top: -12px;
+  background-color: #8b9cb1;
+  position: absolute;
+  left: 0;
+}
+/* line 44, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav > ul > li:first-child:before {
+  display: none;
+}
+/* line 50, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav > ul > li > a {
+  padding: 0 15px;
+  color: #4f5f6f;
+}
+/* line 54, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav > ul > li > a:hover {
+  color: #85CE36;
+}
+/* line 60, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/nav.scss */
+.header .header-block-nav .dropdown-menu {
+  margin-top: 15px;
+}
+
+/* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications {
+  font-size: 16px;
+}
+/* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications a {
+  padding-right: 10px;
+}
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications .counter {
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  top: -3px;
+  left: -2px;
+}
+/* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications.new .counter {
+  color: #85CE36;
+  font-weight: bold;
+}
+@media (max-width: 767.98px) {
+  /* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+  .header .header-block-nav .notifications {
+    position: static;
+  }
+}
+/* line 30, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu {
+  white-space: normal;
+  left: auto;
+  right: 0;
+  min-width: 350px;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu:before {
+  position: absolute;
+  right: 20px;
+  bottom: 100%;
+  margin-right: -1px;
+}
+/* line 44, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu:after {
+  position: absolute;
+  right: 20px;
+  bottom: 100%;
+}
+/* line 53, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu .notifications-container .notification-item {
+  border-bottom: 1px solid rgba(126, 142, 159, 0.1);
+  padding: 5px;
+}
+/* line 57, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu .notifications-container .notification-item:hover {
+  background-color: #f5f5f5;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu .notifications-container .img-col {
+  display: table-cell;
+  padding: 5px;
+}
+/* line 68, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu .notifications-container .body-col {
+  padding: 5px;
+  display: table-cell;
+}
+/* line 73, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu .notifications-container .img {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  vertical-align: top;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 84, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu .notifications-container p {
+  color: #4f5f6f;
+  display: inline-block;
+  line-height: 18px;
+  font-size: 13px;
+  margin: 0;
+  vertical-align: top;
+}
+/* line 92, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu .notifications-container p .accent {
+  font-weight: bold;
+}
+/* line 101, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu footer {
+  text-align: center;
+}
+/* line 104, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu footer a {
+  color: #212529;
+  transition: none;
+}
+/* line 108, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+.header .header-block-nav .notifications-dropdown-menu footer a:hover {
+  background-color: #f5f5f5;
+  color: #85CE36;
+}
+@media (max-width: 767.98px) {
+  /* line 30, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+  .header .header-block-nav .notifications-dropdown-menu {
+    min-width: 100px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  /* line 120, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/notifications/notifications.scss */
+  .header .header-block-nav .notifications-dropdown-menu:before, .header .header-block-nav .notifications-dropdown-menu:after {
+    right: 107px;
+  }
+}
+
+/* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile .img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  background-color: #8b9cb1;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: middle;
+}
+/* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile .name {
+  display: inline-block;
+  margin-right: 9px;
+  font-weight: bold;
+}
+@media (max-width: 767.98px) {
+  /* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+  .header .header-block-nav .profile .name {
+    display: none;
+  }
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile .arrow {
+  color: #85CE36;
+}
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu {
+  left: auto;
+  right: 0;
+  min-width: 180px;
+  white-space: normal;
+}
+/* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu:before {
+  position: absolute;
+  right: 10px;
+  bottom: 100%;
+  margin-right: -1px;
+}
+/* line 48, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu:after {
+  position: absolute;
+  right: 10px;
+  bottom: 100%;
+}
+/* line 55, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu a {
+  padding: 10px 15px;
+}
+/* line 57, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu a .icon {
+  color: #85CE36;
+  text-align: center;
+  width: 16px;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu a span {
+  display: inline-block;
+  padding-left: 5px;
+  text-align: left;
+  color: #7e8e9f;
+}
+/* line 71, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu .profile-dropdown-menu-icon {
+  padding: 0;
+}
+/* line 75, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu .profile-dropdown-menu-topic {
+  color: #7e8e9f;
+  padding: 0;
+}
+/* line 80, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu .dropdown-divider {
+  margin: 0;
+}
+/* line 84, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+.header .header-block-nav .profile-dropdown-menu .logout {
+  border-top: 1px solid rgba(126, 142, 159, 0.1);
+}
+@media (max-width: 767.98px) {
+  /* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/nav/profile/profile.scss */
+  .header .header-block-nav .profile-dropdown-menu {
+    margin-top: 8px;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+.header .header-block-search {
+  margin-right: auto;
+  padding-left: 20px;
+}
+@media (max-width: 767.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+  .header .header-block-search {
+    padding-left: 10px;
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+  .header .header-block-search {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+  .header .header-block-search {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+  .header .header-block-search {
+    padding-left: 35px;
+  }
+}
+/* line 25, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+.header .header-block-search > form {
+  float: right;
+}
+@media (max-width: 767.98px) {
+  /* line 25, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+  .header .header-block-search > form {
+    padding-left: 0;
+  }
+}
+/* line 33, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+.header .header-block-search .input-container {
+  position: relative;
+  color: #7e8e9f;
+}
+/* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+.header .header-block-search .input-container i {
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  left: 0;
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+.header .header-block-search .input-container input {
+  background-color: transparent;
+  border: none;
+  padding-left: 25px;
+  height: 40px;
+  max-width: 150px;
+}
+@media (max-width: 767.98px) {
+  /* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+  .header .header-block-search .input-container input {
+    max-width: 140px;
+  }
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/header/search/search.scss */
+.header .header-block-search .input-container input:focus + .underline {
+  transform: scaleX(1);
+}
+
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .modal-body {
+  min-height: 250px;
+}
+/* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .modal-tab-content {
+  min-height: 300px;
+}
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .images-container {
+  padding: 15px;
+  text-align: center;
+}
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .images-container .image-container {
+  margin: 0 auto 10px auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  float: none;
+}
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .images-container .image-container:hover {
+  border-color: rgba(133, 206, 54, 0.5);
+}
+/* line 26, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .images-container .image-container.active {
+  border-color: rgba(133, 206, 54, 0.5);
+}
+/* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .upload-container {
+  padding: 15px;
+}
+/* line 35, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .upload-container .dropzone {
+  position: relative;
+  border: 2px dashed #85CE36;
+  height: 270px;
+}
+/* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .upload-container .dropzone .dz-message-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+/* line 46, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modal-media/modal-media.scss */
+#modal-media .upload-container .dropzone .dz-message-block .dz-message {
+  margin: 0;
+  font-size: 24px;
+  color: #85CE36;
+  width: 230px;
+}
+
+/* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modals.scss */
+.modal .modal-content {
+  border-radius: 0;
+}
+/* line 9, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modals.scss */
+.modal .modal-header {
+  background-color: #85CE36;
+  color: #ffffff;
+}
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/modals/modals.scss */
+.modal .modal-footer .btn {
+  margin-bottom: 0;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+.customize {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 5px 15px;
+  text-align: center;
+}
+/* line 8, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+.customize .customize-header {
+  margin-bottom: 10px;
+}
+
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 240px;
+}
+@media (max-width: 991.98px) {
+  /* line 23, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+  .sidebar-open #customize-menu {
+    left: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  /* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+  #customize-menu {
+    transition: left 0.3s ease;
+    left: -240px;
+  }
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu > li > a {
+  background-color: #3a4651;
+  border-top: 1px solid rgba(45, 54, 63, 0.5);
+}
+/* line 41, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu > li > a:hover, #customize-menu > li.open > a {
+  background-color: #2d363f;
+}
+/* line 47, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize {
+  width: 240px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #2d363f;
+  text-align: center;
+  padding: 10px 15px;
+  border-top: 2px solid #85CE36;
+}
+/* line 55, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item {
+  margin-bottom: 15px;
+}
+/* line 58, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-header {
+  margin-bottom: 10px;
+}
+/* line 62, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item label {
+  font-weight: 400;
+}
+/* line 66, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item label.title {
+  font-size: 14px;
+}
+/* line 73, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .radio + span {
+  padding: 0;
+  padding-left: 5px;
+}
+/* line 78, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .radio + span:before {
+  font-size: 17px;
+  color: #546273;
+  cursor: pointer;
+}
+/* line 84, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .radio:checked + span:before {
+  color: #85CE36;
+}
+/* line 89, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors {
+  list-style: none;
+}
+/* line 92, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 97, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid;
+  cursor: pointer;
+}
+/* line 104, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.color-red {
+  background-color: #FB494D;
+  border-color: #FB494D;
+}
+/* line 109, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.color-orange {
+  background-color: #FE7A0E;
+  border-color: #FE7A0E;
+}
+/* line 114, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.color-green {
+  background-color: #8CDE33;
+  border-color: #8CDE33;
+}
+/* line 119, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.color-seagreen {
+  background-color: #4bcf99;
+  border-color: #4bcf99;
+}
+/* line 124, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.color-blue {
+  background-color: #52BCD3;
+  border-color: #52BCD3;
+}
+/* line 129, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.color-purple {
+  background-color: #7867A7;
+  border-color: #7867A7;
+}
+/* line 134, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.active {
+  position: relative;
+  font-family: FontAwesome;
+  font-size: 17px;
+  line-height: 17px;
+}
+/* line 140, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/customize/customize.scss */
+#customize-menu .customize .customize-item .customize-colors li .color-item.active:before {
+  content: "\f00c";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/header/header.scss */
+.sidebar-header .brand {
+  color: #fff;
+  text-align: left;
+  padding-left: 25px;
+  line-height: 70px;
+  font-size: 16px;
+}
+@media (max-width: 767.98px) {
+  /* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/header/header.scss */
+  .sidebar-header .brand {
+    line-height: 50px;
+    font-size: 16px;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar {
+  background-color: #3a4651;
+  width: 240px;
+  padding-bottom: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: left 0.3s ease;
+  z-index: 20;
+}
+@media (max-width: 991.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+  .sidebar {
+    position: fixed;
+    left: -240px;
+  }
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar-fixed .sidebar {
+  position: fixed;
+}
+/* line 22, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar-open .sidebar {
+  left: 0;
+}
+/* line 27, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-container {
+  position: absolute;
+  top: 0;
+  bottom: 51px;
+  width: 100%;
+  left: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-container::-webkit-scrollbar-track {
+  background-color: #2c353e;
+}
+/* line 41, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .label {
+  font-size: .75em;
+  display: inline-block;
+  border-radius: .2em;
+  padding: 2px 5px;
+  background-color: #ccc;
+  color: #000;
+  margin: 0 3px;
+}
+/* line 51, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .label-screenful {
+  color: #fff;
+  background-color: #6769d4;
+}
+/* line 56, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 65, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu li a:focus, .open .sidebar .sidebar-menu li a:focus {
+  background-color: inherit;
+}
+/* line 72, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu ul {
+  padding: 0;
+  height: 0px;
+  overflow: hidden;
+}
+/* line 77, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.loaded .sidebar .sidebar-menu ul {
+  height: auto;
+}
+/* line 82, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu li.active ul {
+  height: auto;
+}
+/* line 89, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  display: block;
+}
+/* line 98, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu li a:hover,
+.sidebar .sidebar-menu li.open > a,
+.sidebar .sidebar-menu li.open a:hover {
+  color: #ffffff;
+  background-color: #2d363f;
+}
+/* line 105, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu .arrow {
+  float: right;
+  font-size: 18px;
+  line-height: initial;
+  transition: all 0.3s ease;
+  margin-right: 0;
+}
+/* line 112, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu .arrow:before {
+  content: "\f105" !important;
+}
+/* line 118, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu li.open > a .arrow {
+  transform: rotate(90deg);
+}
+/* line 128, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+/* line 136, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li.active > a, .sidebar .sidebar-menu > li.active > a:hover {
+  background-color: #85CE36 !important;
+  color: #ffffff !important;
+}
+/* line 143, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li.open > a {
+  background-color: #333e48;
+}
+/* line 149, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li > a i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+/* line 153, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li > a i.arrow {
+  font-size: 20px;
+}
+/* line 167, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li > .sidebar-nav > li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 15px;
+  background-color: #333e48;
+}
+/* line 177, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li > .sidebar-nav > li.active a {
+  color: #ffffff;
+}
+/* line 183, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li > .sidebar-nav > li > .sidebar-nav > li a {
+  padding-left: 60px;
+  padding-right: 15px;
+}
+/* line 189, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar .sidebar-menu > li > .sidebar-nav > li > .sidebar-nav > li > .sidebar-nav > li a {
+  padding-left: 70px;
+}
+
+/* line 199, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar-overlay {
+  position: absolute;
+  display: none;
+  left: 200vw;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 15;
+}
+@media (max-width: 991.98px) {
+  /* line 199, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+  .sidebar-overlay {
+    display: block;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 199, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+  .sidebar-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+@media (max-width: 991.98px) {
+  /* line 220, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+  .sidebar-open .sidebar-overlay {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+/* line 228, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+.sidebar-mobile-menu-handle {
+  display: none;
+  position: absolute;
+  top: 50px;
+  background-color: transparent;
+  width: 30px;
+  bottom: 0;
+  z-index: 10;
+}
+@media (max-width: 991.98px) {
+  /* line 228, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/_common/sidebar/sidebar.scss */
+  .sidebar-mobile-menu-handle {
+    display: block;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+.app {
+  position: relative;
+  width: 100%;
+  padding-left: 240px;
+  min-height: 100vh;
+  margin: 0 auto;
+  left: 0;
+  background-color: #f0f3f6;
+  box-shadow: 0 0 3px #ccc;
+  transition: left 0.3s ease, padding-left 0.3s ease;
+  overflow: hidden;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+.app .content {
+  padding: 95px 20px 75px 20px;
+  min-height: 100vh;
+}
+@media (min-width: 1200px) {
+  /* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+  .app .content {
+    padding: 105px 40px 85px 40px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+  .app .content {
+    padding: 100px 35px 80px 35px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+  .app .content {
+    padding: 95px 20px 75px 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+  .app .content {
+    padding: 70px 20px 70px 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  /* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+  .app {
+    padding-left: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  /* line 58, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+  .app.sidebar-open {
+    left: 0;
+  }
+}
+/* line 68, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/app.scss */
+.app.blank {
+  background-color: #667380;
+}
+
+/* line 4, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/charts/charts-flot/charts-flot.scss */
+.flot-chart {
+  display: block;
+  height: 225px;
+}
+/* line 8, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/charts/charts-flot/charts-flot.scss */
+.flot-chart .flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/charts/charts-flot/charts-flot.scss */
+.flot-chart .flot-chart-pie-content {
+  width: 225px;
+  height: 225px;
+  margin: auto;
+}
+
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/history/history.scss */
+.dashboard-page #dashboard-downloads-chart,
+.dashboard-page #dashboard-visits-chart {
+  height: 220px;
+}
+
+@media (max-width: 575.98px) {
+  /* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+  .dashboard-page .items .card-header {
+    border: none;
+    flex-wrap: wrap;
+  }
+  /* line 9, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+  .dashboard-page .items .card-header .header-block {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9edf0;
+  }
+}
+/* line 18, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+.dashboard-page .items .card-header .title {
+  padding-right: 0px;
+  margin-right: 5px;
+}
+/* line 23, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+.dashboard-page .items .card-header .search {
+  margin: 0;
+  vertical-align: middle;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 575.98px) {
+  /* line 23, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+  .dashboard-page .items .card-header .search {
+    min-width: 50%;
+  }
+}
+/* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+.dashboard-page .items .card-header .search .search-input {
+  border: none;
+  background-color: inherit;
+  color: #C2CCD6;
+  width: 100px;
+  transition: color 0.3s ease;
+}
+/* line 82, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  transition: color 0.3s ease;
+  color: #C2CCD6;
+}
+/* line 85, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  transition: color 0.3s ease;
+  color: #C2CCD6;
+}
+/* line 88, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  transition: color 0.3s ease;
+  color: #C2CCD6;
+}
+/* line 91, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  transition: color 0.3s ease;
+  color: #C2CCD6;
+}
+@media (max-width: 575.98px) {
+  /* line 37, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+  .dashboard-page .items .card-header .search .search-input {
+    min-width: 130px;
+  }
+}
+/* line 53, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+.dashboard-page .items .card-header .search .search-input:focus {
+  color: #7e8e9f;
+}
+/* line 82, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input:focus::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #aab4c0;
+}
+/* line 85, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input:focus:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #aab4c0;
+}
+/* line 88, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input:focus::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #aab4c0;
+}
+/* line 91, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/_common/_styles/_mixins.scss */
+.dashboard-page .items .card-header .search .search-input:focus:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #aab4c0;
+}
+/* line 60, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+.dashboard-page .items .card-header .search .search-input:focus + .search-icon {
+  color: #7e8e9f;
+}
+/* line 66, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+.dashboard-page .items .card-header .search .search-icon {
+  color: #C2CCD6;
+  transition: color 0.3s ease;
+  order: -1;
+  padding-right: 6px;
+}
+/* line 76, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-header.scss */
+.dashboard-page .items .card-header .pagination {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+.dashboard-page .items .item-list .item-col-title {
+  flex-grow: 9;
+}
+/* line 10, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+.dashboard-page .items .item-list .item-col-date {
+  text-align: right;
+}
+@media (min-width: 1200px) {
+  /* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col-date {
+    flex-grow: 4;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 25, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-list-header {
+    display: none;
+  }
+  /* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-row {
+    padding: 0;
+  }
+  /* line 33, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 38, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col-img {
+    padding-left: 10px;
+    flex-basis: 60px;
+    padding-right: 0;
+  }
+  /* line 44, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col-stats {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 50, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col-title {
+    flex-basis: 100%;
+    border-bottom: 1px solid #e9edf0;
+  }
+  /* line 55, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col:not(.item-col-title):not(.item-col-img) {
+    position: relative;
+    padding-top: 35px;
+  }
+  /* line 60, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-heading {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    left: 0;
+    top: 5px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 575.98px) {
+  /* line 74, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col {
+    border-bottom: 1px solid #e9edf0;
+  }
+  /* line 78, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col-img {
+    flex-basis: 50px;
+    order: -5;
+  }
+  /* line 83, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col-title {
+    flex-basis: calc(100% - 50px);
+  }
+  /* line 87, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col:not(.item-col-title):not(.item-col-img) {
+    flex-basis: 100%;
+    text-align: left;
+  }
+  /* line 91, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col:not(.item-col-title):not(.item-col-img) .item-heading {
+    text-align: left;
+  }
+  /* line 97, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/items/items-list.scss */
+  .dashboard-page .items .item-list .item-col-date {
+    border: none;
+  }
+}
+
+/* line 2, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/sales-breakdown/sales-breakdown.scss */
+.dashboard-page .sales-breakdown .dashboard-sales-breakdown-chart {
+  margin: 0 auto;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+/* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/sales-by-countries/sales-by-countries.scss */
+.dashboard-page #dashboard-sales-map .jqvmap-zoomin,
+.dashboard-page #dashboard-sales-map .jqvmap-zoomout {
+  background-color: #85CE36;
+  height: 20px;
+  width: 20px;
+  line-height: 14px;
+}
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/sales-by-countries/sales-by-countries.scss */
+.dashboard-page #dashboard-sales-map .jqvmap-zoomout {
+  top: 32px;
+}
+
+/* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+.dashboard-page .stats .card-block {
+  padding-bottom: 0;
+}
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+.dashboard-page .stats .stat-col {
+  margin-bottom: 20px;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 23, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+.dashboard-page .stats .stat-icon {
+  color: #BDBDBD;
+  display: inline-block;
+  font-size: 26px;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+}
+/* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+.dashboard-page .stats .stat-chart {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+@media (min-width: 1200px) {
+  /* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+  .dashboard-page .stats .stat-chart {
+    margin-right: 0.6vw;
+  }
+}
+/* line 45, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+.dashboard-page .stats .stat {
+  vertical-align: middle;
+}
+@media (min-width: 1200px) {
+  /* line 47, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+  .dashboard-page .stats .stat .value {
+    font-size: 1.3vw;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 53, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+  .dashboard-page .stats .stat .name {
+    font-size: 0.9vw;
+  }
+}
+/* line 60, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+.dashboard-page .stats .stat-progress {
+  height: 2px;
+  margin: 5px 0;
+  color: #85CE36;
+  background-color: #dddddd;
+}
+/* line 66, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/stats/stats.scss */
+.dashboard-page .stats .stat-progress .progress-bar {
+  background-color: #85CE36;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/tasks/tasks.scss */
+.dashboard-page .tasks {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+/* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/tasks/tasks.scss */
+.dashboard-page .tasks .title-block .title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 16, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/tasks/tasks.scss */
+.dashboard-page .tasks label {
+  width: 100%;
+  margin-bottom: 0;
+}
+/* line 20, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/tasks/tasks.scss */
+.dashboard-page .tasks label .checkbox:checked + span {
+  text-decoration: line-through;
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/tasks/tasks.scss */
+.dashboard-page .tasks label span {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+/* line 33, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/tasks/tasks.scss */
+.dashboard-page .tasks .tasks-block {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0;
+  margin-right: -5px;
+}
+/* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/dashboard/tasks/tasks.scss */
+.dashboard-page .tasks .item-list .item-col {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .title-search-block {
+  position: relative;
+}
+@media (max-width: 767.98px) {
+  /* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .title-block {
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+  }
+}
+/* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .title-block .action {
+  display: inline;
+}
+/* line 16, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .title-block .action a {
+  padding: 10px 15px;
+}
+/* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .title-block .action a .icon {
+  margin-right: 5px;
+  text-align: center;
+  width: 16px;
+}
+@media (max-width: 767.98px) {
+  /* line 13, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .title-block .action {
+    display: none;
+  }
+}
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .items-search {
+  position: absolute;
+  margin-bottom: 15px;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 767.98px) {
+  /* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .items-search {
+    position: static;
+  }
+}
+/* line 44, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .items-search .search-button {
+  margin: 0;
+}
+/* line 57, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-check {
+  text-align: left;
+}
+/* line 63, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-img {
+  text-align: left;
+  width: auto;
+  text-align: center;
+  flex-basis: 70px;
+}
+@media (min-width: 576px) {
+  /* line 70, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-img:not(.item-col-header) {
+    height: 80px;
+  }
+}
+/* line 76, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-title {
+  text-align: left;
+  margin-left: 0 !important;
+  margin-right: auto;
+  flex-basis: 0;
+  flex-grow: 9;
+}
+/* line 85, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-sales {
+  text-align: right;
+  font-weight: 600;
+}
+/* line 90, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-stats {
+  text-align: center;
+}
+/* line 94, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-category {
+  text-align: left;
+  font-weight: 600;
+}
+/* line 99, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-author {
+  text-align: left;
+  flex-grow: 4.5;
+}
+/* line 104, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+.items-list-page .item-list .item-col.item-col-date {
+  text-align: right;
+}
+@media (max-width: 767.98px) {
+  /* line 113, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .card.items {
+    background: none;
+    box-shadow: none;
+  }
+  /* line 119, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item {
+    border: none;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+  }
+  /* line 126, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-row {
+    padding: 0 !important;
+  }
+  /* line 131, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-author {
+    flex-grow: 3;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 146, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-list-header {
+    display: none;
+  }
+  /* line 150, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+  }
+  /* line 156, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-row {
+    padding: 0;
+  }
+  /* line 160, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-heading {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    line-height: 40px;
+    padding-left: 0;
+  }
+  /* line 172, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-check, .items-list-page .item-list .item-col.item-col-title, .items-list-page .item-list .item-col.item-col-actions-dropdown {
+    border-bottom: 1px solid #d7dde4;
+  }
+  /* line 177, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-check .item-heading, .items-list-page .item-list .item-col.item-col-title .item-heading, .items-list-page .item-list .item-col.item-col-actions-dropdown .item-heading {
+    display: none;
+  }
+  /* line 182, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-sales, .items-list-page .item-list .item-col.item-col-stats, .items-list-page .item-list .item-col.item-col-category, .items-list-page .item-list .item-col.item-col-author, .items-list-page .item-list .item-col.item-col-date {
+    padding-top: 40px;
+    position: relative;
+  }
+  /* line 192, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-check {
+    display: none;
+  }
+  /* line 196, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-title {
+    padding-left: 10px;
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: auto;
+    flex-basis: calc(100% - 40px);
+  }
+  /* line 209, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-img {
+    padding-left: 10px;
+    flex-basis: 79px;
+  }
+  /* line 215, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-sales {
+    text-align: left;
+  }
+  /* line 219, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-stats {
+    text-align: center;
+  }
+  /* line 223, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-category {
+    text-align: center;
+  }
+  /* line 227, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-author {
+    text-align: center;
+  }
+  /* line 231, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item-col.item-col-date {
+    padding-right: 10px;
+    text-align: right;
+    white-space: nowrap;
+    flex-basis: 100px;
+    flex-basis: 0;
+    flex-grow: 3;
+  }
+}
+@media (max-width: 575.98px) {
+  /* line 248, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list-header {
+    display: none;
+  }
+  /* line 252, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item {
+    border: none;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+  }
+  /* line 260, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col {
+    text-align: right;
+    border-bottom: 1px solid #d7dde4;
+    padding-left: 10px;
+  }
+  /* line 265, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col[class^=item-col] {
+    flex-basis: 100%;
+  }
+  /* line 270, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-check {
+    display: none;
+  }
+  /* line 275, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-img .item-img {
+    padding-bottom: 65%;
+  }
+  /* line 280, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-title {
+    text-align: left;
+    padding-bottom: 0;
+    border: none;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  /* line 287, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-title .item-heading {
+    display: none;
+  }
+  /* line 291, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-title .item-title {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  /* line 297, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-actions-dropdown {
+    border: none;
+    padding-bottom: 0;
+  }
+  /* line 302, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-sales {
+    text-align: left;
+  }
+  /* line 306, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-stats {
+    text-align: left;
+  }
+  /* line 310, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-category {
+    text-align: left;
+  }
+  /* line 314, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-author {
+    text-align: left;
+  }
+  /* line 318, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/items/list/items-list.scss */
+  .items-list-page .item-list .item .item-col.item-col-date {
+    text-align: left;
+  }
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card {
+  width: 410px;
+  min-height: 330px;
+  margin: 60px auto;
+}
+/* line 6, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card .error-title {
+  font-size: 150px;
+  line-height: 150px;
+  font-weight: 700;
+  color: #252932;
+  text-align: center;
+  text-shadow: rgba(61, 61, 61, 0.3) 0.5px 0.5px, rgba(61, 61, 61, 0.2) 1px 1px, rgba(61, 61, 61, 0.3) 1.5px 1.5px;
+}
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card .error-sub-title {
+  font-weight: 100;
+  text-align: center;
+}
+/* line 20, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card .error-container {
+  text-align: center;
+  visibility: hidden;
+}
+/* line 24, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card .error-container.visible {
+  visibility: visible;
+}
+/* line 29, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card.global {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  margin: 0;
+}
+/* line 36, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card.global .error-title {
+  color: #ffffff;
+}
+/* line 40, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+.error-card.global .error-sub-title,
+.error-card.global .error-container {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 48, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+  .error-card {
+    width: 50%;
+  }
+  /* line 51, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+  .error-card.global {
+    position: relative;
+    top: 25%;
+    left: 0;
+    transform: inherit;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 767.98px) {
+  /* line 62, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+  .error-card {
+    width: 90%;
+  }
+  /* line 65, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/error.scss */
+  .error-card.global {
+    position: relative;
+    top: 25%;
+    left: 0;
+    transform: inherit;
+    margin: 40px auto;
+  }
+}
+/* line 3, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .section {
+  text-align: center;
+}
+/* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .subtitle {
+  margin-bottom: 30px;
+}
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .description {
+  margin-bottom: 50px;
+}
+/* line 15, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .screenful-logo {
+  width: 300px;
+  height: 160px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/screenful/logo.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+/* line 32, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .integrations-tools {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 39, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .integrations-title {
+  margin-bottom: 40px;
+}
+/* line 43, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .integration-item {
+  margin: 0 1%;
+  margin-bottom: 30px;
+}
+/* line 48, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .integration-logo {
+  width: 190px;
+  height: 90px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all .25s ease;
+}
+/* line 56, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .integration-logo:hover {
+  border: 1px solid #6769d4;
+}
+/* line 62, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .benefits-title {
+  margin-bottom: 70px;
+}
+/* line 66, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .screen-colum {
+  display: flex;
+  justify-content: center;
+}
+/* line 71, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .screen-item {
+  max-width: 500px;
+}
+/* line 75, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .ex-pic {
+  width: 100%;
+  border-radius: 10px;
+  background-size: cover;
+}
+/* line 81, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .title {
+  margin-bottom: 20px;
+}
+/* line 85, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page a {
+  text-decoration: none;
+}
+/* line 89, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page ul {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+/* line 95, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/pages/screenful/screenful.scss */
+.screenful-page .divider {
+  background-color: #fff;
+  padding-bottom: 1px;
+  margin-bottom: 50px;
+}
+
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+.table-flip-scroll table {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 7, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll .flip-content:after,
+  .table-flip-scroll .flip-header:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+  /* line 16, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll html .flip-content,
+  .table-flip-scroll html .flip-header {
+    -ms-zoom: 1;
+    zoom: 1;
+  }
+
+  /* line 21, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll *:first-child + html .flip-content,
+  .table-flip-scroll *:first-child + html .flip-header {
+    -ms-zoom: 1;
+    zoom: 1;
+  }
+
+  /* line 26, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+  }
+
+  /* line 33, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll th,
+  .table-flip-scroll td {
+    margin: 0;
+    vertical-align: top;
+  }
+
+  /* line 38, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll th:last-child,
+  .table-flip-scroll td:last-child {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* line 42, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll th {
+    border: 0 !important;
+    border-right: 1px solid #ddd !important;
+    width: auto !important;
+    display: block;
+    text-align: right;
+  }
+
+  /* line 51, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll td {
+    display: block;
+    text-align: left;
+    border: 0 !important;
+    border-bottom: 1px solid #ddd !important;
+  }
+
+  /* line 57, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll thead {
+    display: block;
+    float: left;
+  }
+
+  /* line 61, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll thead tr {
+    display: block;
+  }
+
+  /* line 64, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* line 71, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/app/tables/responsive-tables/responsive-tables.scss */
+  .table-flip-scroll tbody tr {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -5px;
+    border-left: 1px solid #ddd;
+  }
+}
+/* line 1, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color: #667380;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 11, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container {
+  width: 450px;
+  min-height: 330px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+/* line 19, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container .auth-header {
+  text-align: center;
+  border-bottom: 1px solid #85CE36;
+}
+/* line 25, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container .auth-title {
+  color: #97A4B1;
+  padding: 20px;
+  line-height: 30px;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+/* line 34, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container .auth-content {
+  padding: 30px 50px;
+  min-height: 260px;
+}
+/* line 39, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container .forgot-btn {
+  line-height: 28px;
+}
+/* line 44, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container .checkbox label {
+  padding: 0;
+}
+/* line 48, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container .checkbox a {
+  vertical-align: text-top;
+}
+/* line 52, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+.auth-container .checkbox span {
+  color: #4f5f6f;
+}
+
+@media (max-width: 767.98px) {
+  /* line 59, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+  .auth-container {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: inherit;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  /* line 68, /home/will/dev/paynelabs-hosting/rails_modular_admin/app/assets/stylesheets/rails_modular_admin/auth/auth.scss */
+  .auth-container .auth-content {
+    padding: 30px 25px;
+  }
+}

@@ -1,0 +1,8 @@
+Description:
+    This is the basic install generator for the Rails Modular Admin gem.
+
+Example:
+    rails generate rails_modular_admin:install
+
+    This will create:
+        app/assets/stylesheets/custom-theme.scss

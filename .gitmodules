@@ -1,0 +1,3 @@
+[submodule "modular-admin-html"]
+	path = modular-admin-html
+	url = git@github.com:modularcode/modular-admin-html.git

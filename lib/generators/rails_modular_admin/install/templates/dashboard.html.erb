@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title> Rails Modular Admin </title>
+        <%= csrf_meta_tags %>
+        <%= csp_meta_tag %>
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+    <body>
+<!-- Wrappers for main content -->
+  <div class="main-wrapper">
+    <div class="app" id="app">
+
+<!-- BEGIN dashboard header -->
+      <header class="header">
+        <div class="header-block header-block-collapse d-lg-none d-xl-none">
+          <button class="collapse-btn" id="sidebar-collapse-btn"><i class="fa fa-bars"></i></button>
+        </div>
+        <div class="header-block header-block-search"></div>                 
+          <div class="header-block header-block-nav">
+            <ul class="nav-profile">
+              <li class="notifications new">
+                <a href="" data-toggle="dropdown"><i class="fa fa-bell-o"></i>
+                  <sup><span class="counter"></span></sup>
+                </a>
+                <div class="dropdown-menu notifications-dropdown-menu">
+                  <ul class="notifications-container">
+                    <% if alert %>
+                      <li>
+                        <a href="" class="notification-item">
+                          <div class="img-col">
+                            <div class="img" style=""></div>
+                          </div>
+                          <div class="body-col">
+                            <p><span class="accent">Alert: </span> <%= alert %></p>
+                          </div>
+                        </a>
+                      </li>
+                    <% end %>
+                    <% if notice %>
+                      <li>
+                        <a href="" class="notification-item">
+                          <div class="img-col"><div class="img" style=""></div></div>
+                            <div class="body-col">
+                              <p><span class="accent">Notice: </span> <%= notice %></p>
+                            </div>
+                        </a>
+                      </li>
+                    <% end %>
+                  </ul>
+                  <!-- <footer><ul><li><a href=""> View All </a></li></ul></footer> -->
+                </div>
+              </li>
+<!-- End Alert/Notification element on top bar -->
+
+              <li class="profile dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="name"> </span>
+                </a>
+                <div class="dropdown-menu profile-dropdown-menu" aria-labelledby="dropdownMenu1">
+                  
+                  <a class="dropdown-item" href="#"><i class="fa fa-user icon"></i> Profile </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-bell icon"></i> Notifications </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-gear icon"></i> Settings </a>
+                  <div class="dropdown-divider"></div>
+                  <%= link_to '<i class="fa fa-power-off icon"></i> Log Out'.html_safe, destroy_user_session_path, class: "dropdown-item", :method => :delete %>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </header>
+<!-- End dashboard header -->
+
+<!-- BEGIN side navigation -->
+      <aside class="sidebar">
+        <div class="sidebar-container">
+          <div class="sidebar-header">
+                            <div class="brand">
+                                <div class="logo">
+                                    <span class="l l1"></span>
+                                    <span class="l l2"></span>
+                                    <span class="l l3"></span>
+                                    <span class="l l4"></span>
+                                    <span class="l l5"></span>
+                                </div> Modular Admin </div>
+                        </div>
+          <nav class="menu">
+            <ul class="sidebar-menu metismenu" id="sidebar-menu">
+              <li class=<%= active_class(root_path) %>> <%= link_to "<i class=\"fa fa-home\"></i> Dashboard".html_safe, root_path %></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="sidebar-overlay" id="sidebar-overlay"></div>
+      <div class="sidebar-mobile-menu-handle" id="sidebar-mobile-menu-handle"></div>
+      <div class="mobile-menu-handle"></div>
+<!-- End side navigation -->
+              
+<%= yield %>
+<%= render partial: "layouts/partials/footer" %>
+
+<!-- Reference block for JS -->
+      <div class="ref" id="ref">
+        <div class="color-primary"></div>
+        <div class="chart">
+          <div class="color-primary"></div>
+          <div class="color-secondary"></div>
+        </div>
+      </div>
+      
+    </div><!-- ./app -->
+  </div><!-- ./main-wrapper -->
+<%= javascript_include_tag 'rails_modular_admin' %>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+//= require clone/clone
+//= require fast-diff/diff
+//= require deep-equal
+//= require extend
+//= require quill/dist/quill
+//= require quill-delta/lib/delta
+//= require parchment/dist/parchment
+//= require sortablejs/Sortable
+//= require jquery
+//= require bootstrap/dist/js/bootstrap
+//= require jquery-flot/jquery.flot
+//= require jquery-sparkline/jquery.sparkline
+//= require jquery-touchswipe/jquery.touchSwipe
+//= require jquery-validation/dist/jquery.validate
+//= require jquery.browser/dist/jquery.browser
+//= require jquery.flot.tooltip/js/jquery.flot.tooltip
+//= require jqvmap/dist/jquery.vmap
+//= require metismenu/dist/metisMenu
+//= require responsive-toolkit
+//= require tinycolor2/tinycolor
+//= require nprogress
+//= require extend
