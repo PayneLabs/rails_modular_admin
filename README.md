@@ -53,10 +53,11 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## TODO
 
-[*] Update install task to automatically adjust package.json and run yarn install. -> Ended up being able to do this by just bundling node_modules with the gem.
-[] Theme choices.
-[] Generators to install common views, namely the dashboard and login pages (devise).
-[] Helper methods for commonly used assets or features.
-[] Test suite because it's currently non-existent.
-[] Tests for each JavaScript dependency presence.
-[] Fix implementation when user has custom javascripts that depend on Bootstrap, thus loading it twice.
+* [x] Update install task to automatically adjust package.json and run yarn install. -> Ended up being able to do this by just bundling node_modules with the gem.
+* [ ] Theme choices.
+* [ ] Generators to install common views, namely the dashboard and login pages (devise).
+* [ ] Helper methods for commonly used assets or features.
+* [ ] Test suite because it's currently non-existent.
+* [ ] Tests for each JavaScript dependency presence.
+* [ ] Fix implementation when user has custom javascripts that depend on Bootstrap, thus loading it twice.
+
